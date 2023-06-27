@@ -111,8 +111,9 @@ header{
 
 }
 .menu-item:hover{
-    background-color: #9b4289;
+    background-color: #ca72b9;
     transition: 0.3s;
+    border-radius: 30%;
 }
 /*section*/
 section{
