@@ -115,7 +115,7 @@ header{
 /*section*/
 section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 16px;
@@ -167,7 +167,8 @@ section{
     
 }
 .iconos{
-    width: 35%;
+    max-width: 100%;
+    width: 60%;
     margin-left: 16px;
     display: flex;  
     justify-content: center;
@@ -208,6 +209,9 @@ footer{
     .presentación p {
         text-align: left;
     }  
+    .iconos {
+        width: 60%;
+    }
 }
 
 
